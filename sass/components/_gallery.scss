@@ -18,9 +18,9 @@
 }
 
 .gallery__item{
-    display: flex;
+    display: inline;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 .gallery__img{
