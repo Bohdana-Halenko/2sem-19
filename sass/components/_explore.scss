@@ -2,6 +2,7 @@
     background-image: url(../../img/explore/bg@1x.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -15,7 +16,18 @@
 
 .explore__carousel {
     padding-top: 25px;
-    padding-bottom: 695px;
+    padding-bottom: 950px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 115%;
+    text-align: center;
+}
+
+.explore__carousel-title {
+    margin-left: 73px;
+    margin-right: 73px;
+    margin-bottom: 43px;
+    color: $explore-blue;
     font-weight: 700;
     font-size: 40px;
     line-height: 115%;
@@ -23,7 +35,41 @@
 }
 
 .explore__numbers {
-    background-color: #020c21;
+    background-color: $explore-blue;
     opacity: 0.9;
     width: 100vw;
+    padding-top: 47px;
+    padding-bottom: 69px;
+}
+
+.explore__numbers-title {
+    margin-right: 95px;
+    margin-left: 95px;
+    margin-bottom: 60px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 115%;
+    text-align: center;
+    color: $white;
+}
+
+.explore__numbers-text {
+    margin-left: 30px;
+    margin-right: 30px;
+    color: $white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.explore__numbers-item-title {
+    color: #DD2242;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 115%;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 70px;
 }
