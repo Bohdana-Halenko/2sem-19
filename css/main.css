@@ -128,6 +128,32 @@ img {
   max-width: 100%;
 }
 
+.explore {
+  background-image: url(../../img/explore/bg@1x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .explore {
+    background-image: url(../../img/explore/bg@2x.png);
+  }
+}
+.explore__carousel {
+  padding-top: 25px;
+  padding-bottom: 695px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 115%;
+  text-align: center;
+}
+
+.explore__numbers {
+  background-color: #020c21;
+  opacity: 0.9;
+  width: 100vw;
+}
+
 .gallery__title {
   display: -webkit-box;
   display: -ms-flexbox;
