@@ -163,7 +163,7 @@ img {
 .explore__numbers {
   background-color: #020c21;
   opacity: 0.9;
-  width: 100vw;
+  background-size: cover;
   padding-top: 47px;
   padding-bottom: 69px;
 }
@@ -200,6 +200,23 @@ img {
   margin-top: 70px;
 }
 
+@media screen, (min-width: 1200px) {
+  .explore__carousel {
+    padding-top: 100px;
+  }
+  .explore__numbers-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
 .gallery__title {
   display: -webkit-box;
   display: -ms-flexbox;

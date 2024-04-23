@@ -37,7 +37,7 @@
 .explore__numbers {
     background-color: $explore-blue;
     opacity: 0.9;
-    width: 100vw;
+    background-size: cover;
     padding-top: 47px;
     padding-bottom: 69px;
 }
@@ -72,4 +72,16 @@
     text-align: center;
     margin-bottom: 15px;
     margin-top: 70px;
+}
+
+@media screen, (min-width:1200px) {
+    .explore__carousel {
+        padding-top: 100px;
+    }
+
+    .explore__numbers-items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 }
