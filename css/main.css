@@ -128,6 +128,13 @@ img {
   max-width: 100%;
 }
 
+.header {
+  background-image: url(../../img/header/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .explore {
   background-image: url(../../img/explore/bg@1x.png);
   background-size: cover;

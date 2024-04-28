@@ -12,69 +12,133 @@
     <!-- hello -->
   <header class="header">
     <div class="container">
+      <div class="header__logo">
         <picture>
-          <source srcset="../img/header/header1@1x.webp 1x, ../img/header/header1@2x.webp 2x">
-          <source srcset="../img/header/header1@1x.png 1x, ../img/header/header1@2x.png 2x">
+          <source srcset="../img/header/header1@1x.webp 1x, ../img/header/header1@2x.webp 2x image/webp">
+          <source srcset="../img/header/header1@1x.png 1x, ../img/header/header1@2x.png 2x image/png">
           <img src="./img/header/header1@1x.png" alt="">
         </picture>
-        <div class="header-logo">
-        <a href="./index.html">Explore <br>Indonesia</a>
       </div>
-      <nav>
-        <ul>
-          <li>
-            <a href="">destinations</a>
-          </li>
-          <li>
-            <a href="">experiences</a>
-          </li>
-          <li>
-            <a href="">about</a>
-          </li>
-          <li>
-            <a href="">about</a>
-          </li>
-        </ul>
-      </nav>
+      <ul class="header__nav-list">
+        <li class="header__nav-item">
+            <a class="header__nav-link" href="#">destinations</a>
+        </li>
+        <li class="header__nav-item">
+            <a class="header__nav-link" href="#">experiences</a>
+        </li>
+        <li class="header__nav-item">
+            <a class="header__nav-link" href="#">about</a>
+        </li>
+        <li class="header__nav-item">
+            <a class="header__nav-link" href="#">gallery</a>
+        </li>
+    </ul>
+</nav>
+</li>
+<li class="header__list-item">
+<ul class="header__menu-list">
+    <li class="header__menu-item">
+        <a class="header__menu-btn" href="#">
+            faws
+            <svg class="header__menu-icon">
+                <use href="#"></use>
+            </svg>
+        </a>
+    </li>
+    <li class="header__menu-item">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <svg class="header__menu-icon">
+                <use href="#"></use>
+            </svg>
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">                                        
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <nav>
+                            <ul class="header__nav-list">
+                                <li class="header__nav-item">
+                                    <a class="header__nav-link" href="#">destinations</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a class="header__nav-link" href="#">experiences</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a class="header__nav-link" href="#">about</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a class="header__nav-link" href="#">gallery</a>
+                                </li>
+                            </ul>
 
-      <h1 class="">explore<br>indonesia</h1>
-      <div class="">
-        <button class="">Start travelling</button>
+                            <ul class="mobile__nav-list">
+                                <li class="mobile__nav-item">
+                                    <a href="#" class="mobile__nav-link"></a>
+                                </li>
+                                <li class="mobile__nav-item">
+                                    <a href="#" class="mobile__nav-link"></a>
+                                </li>
+                                <li class="mobile__nav-item">
+                                    <a href="#" class="mobile__nav-link"></a>
+                                </li>
+                                <li class="mobile__nav-item">
+                                    <a href="#" class="mobile__nav-link"></a>
+                                </li>
+                                <li class="mobile__nav-item">
+                                    <a href="#" class="mobile__nav-link"></a>
+                                </li>
+                                <li class="mobile__nav-item">
+                                    <a href="#" class="mobile__nav-link"></a>
+                                </li>
+                                <li class="mobile__nav-item">
+                                    <a href="#" class="mobile__nav-link"></a>
+                                </li>
+                                <li class="mobile__nav-item">
+                                    <a href="#" class="mobile__nav-link"></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+      <h1 class="header__title">explore<br>indonesia</h1>
+      <div class="header__wrap-button">
+        <button class="header__button">Start travelling</button>
       </div>
 
 
-      <ul>
-      <li>
-        <p>01</p>
-        <h3>Title here</h3>
-        <p>Lorem ipsum dolor sit amet et amet ist ame.</p>
+      <ul class="header__info-list">
+      <li class="header__info-item">
+        <p class="header__info-number">01</p>
+        <h3 class="header__info-title">Title here</h3>
+        <p class="header__info-text">Lorem ipsum dolor sit amet et amet ist ame.</p>
       </li>
-      <li>
-        <p>02</p>
-        <h3>Title here</h3>
-        <p>Lorem ipsum dolor sit amet et amet ist ame.</p>
+      <li class="header__info-item">
+        <p class="header__info-number">02</p>
+        <h3 class="header__info-title">Title here</h3>
+        <p class="header__info-text">Lorem ipsum dolor sit amet et amet ist ame.</p>
       </li>
-      <li>
-        <p>03</p>
-        <h3>Title here</h3>
-        <p>Lorem ipsum dolor sit amet et amet ist ame.</p>
-      </li>
-      <li>
-        <picture>
-          <source srcset="../img/header/header2@1x.webp 1x, ../img/header/header2@2x.webp 2x">
-          <source srcset="../img/header/header2@1x.png 1x, ../img/header/header2@2x.png 2x">
-          <img src="./img/header/header2@1x.png" alt="">
-        </picture>
+      <li class="header__info-item">
+        <p class="header__info-number">03</p>
+        <h3 class="header__info-title">Title here</h3>
+        <p class="header__info-text">Lorem ipsum dolor sit amet et amet ist ame.</p>
       </li>
       </ul>
+
+<video poster="#" class="header__video" src="https://cdn.pixabay.com/video/2019/04/26/23070-332665404_large.mp4" controls loop muted style="width: 417px; height: 254px;" ></video>
     </div>
   </header>
+  <main class="main">
 
-
-  <section class="">
+  <section class="articles">
     <div class="container">
 
-      <div class="">
+      <div class="articles__img">
             <picture>
               <source srcset="../img/header/header3@1x.webp 1x, ../img/header/header3@2x.webp 2x">
               <source srcset="../img/header/header3@1x.png 1x, ../img/header/header3@2x.png 2x">
@@ -82,37 +146,37 @@
             </picture>
       </div>
       
-      <div class="">
-            <h3>
+      <div class="articles__wrap">
+            <h3 class="articles__title">
               The walkways of Indonesia spellbind
             </h3>
 
-            <p>
+            <p class="articles__text">
               Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce commodo magna et libero mollis rhoncus. 
             </p>
 
-            <button>
+            <button class="articles__button">
               Learn More
             </button>
 
           </div>
 
 
-          <div class="">
-            <h3>
+          <div class="articles__wrap">
+            <h3 class="articles__title">
               Perfect beaches exude relaxation and fun
             </h3>
 
-            <p>
+            <p class="articles__text">
               Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce commodo magna et libero mollis rhoncus. 
             </p>
 
-            <button>
+            <button class="articles__button">
               Learn More
             </button>
           </div>
 
-          <div class="">
+          <div class="articles__img">
             <picture>
               <source srcset="../img/header/header4@1x.webp 1x, ../img/header/header4@2x.webp 2x">
               <source srcset="../img/header/header4@1x.png 1x, ../img/header/header4@2x.png 2x">
@@ -278,7 +342,9 @@
       </div>
     </div>
   </section>
-    
+
+
+</main>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
