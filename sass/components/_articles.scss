@@ -1,0 +1,45 @@
+.articles{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #010A20;
+
+}
+.articles__title{
+color: #ffff;
+font-size: 40px;
+font-weight: 700;
+line-height: 46px;
+text-align: left;
+
+}
+.articles__text{
+color: #ffff;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.5px;
+text-align: left;
+
+}
+.articles__button{ 
+padding: 16px 24px ;
+border-radius: 32px;
+opacity: 0px;
+width: 100%;
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+text-align: center;
+background-color: #DD2242;
+color: #ffff;
+}
+.articles__img{
+    padding-top: 40px;
+}
+.articles__title{
+    padding-bottom: 40px;
+    padding-top: 34px;
+}
+.articles__text{
+    padding-bottom: 40px;
+}
