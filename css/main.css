@@ -130,7 +130,7 @@ img {
 
 .header {
   padding-bottom: 40px;
-  background-image: url(../../img/header/bg.png);
+  background-image: url(./../img/header/bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
