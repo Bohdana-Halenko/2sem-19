@@ -34,6 +34,10 @@
     text-align: center;
 }
 
+.carousel-indicators li {
+    background-color: $explore-blue;
+}
+
 .explore__numbers {
     background-color: $explore-blue;
     opacity: 0.9;
@@ -77,6 +81,7 @@
 @media screen, (min-width:1200px) {
     .explore__carousel {
         padding-top: 100px;
+        
     }
 
     .explore__numbers-items {

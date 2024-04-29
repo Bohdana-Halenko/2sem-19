@@ -294,6 +294,10 @@ img {
   text-align: center;
 }
 
+.carousel-indicators li {
+  background-color: #020c21;
+}
+
 .explore__numbers {
   background-color: #020c21;
   opacity: 0.9;
