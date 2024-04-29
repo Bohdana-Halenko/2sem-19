@@ -68,6 +68,11 @@
     text-align: center;
 }
 
+.explore__numbers-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .explore__numbers-item-title {
     color: #DD2242;
     font-weight: 700;
@@ -86,6 +91,7 @@
 
     .explore__numbers-items {
         display: flex;
+        flex-wrap: nowrap;
         flex-direction: row;
         justify-content: space-evenly;
     }
