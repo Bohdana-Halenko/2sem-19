@@ -130,7 +130,7 @@ img {
 
 .header {
   padding-bottom: 40px;
-  background-image: url(../../img/header/bg.png);
+  background-image: url(./../img/header/bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -239,7 +239,6 @@ img {
 .articles__button {
   padding: 16px 24px;
   border-radius: 32px;
-  opacity: 0px;
   width: 100%;
   font-size: 18px;
   font-weight: 700;
@@ -247,19 +246,20 @@ img {
   text-align: center;
   background-color: #DD2242;
   color: white;
+  border: none;
 }
 
 .articles__img {
-  padding-top: 40px;
+  margin-top: 40px;
 }
 
 .articles__title {
-  padding-bottom: 40px;
-  padding-top: 34px;
+  margin-bottom: 40px;
+  margin-top: 34px;
 }
 
 .articles__text {
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .explore {
