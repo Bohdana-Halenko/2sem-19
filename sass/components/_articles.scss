@@ -1,10 +1,10 @@
 .articles{
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: rgba($color: #010A20, $alpha: 0.8);
-    background-image: url(./../../img/header/header3@1x.webp), url(./../../img/header/header4@1x.webp);
-    background-size: 50%;
+    background-image: linear-gradient(rgba($color: #010A20, $alpha: 0.8), rgba($color: #010A20, $alpha: 0.8)), url(./../../img/header/header3@1x.webp), url(./../../img/header/header4@1x.webp);
+    // background-size: 50%;
     background-repeat: no-repeat;
+    background-position: top, bottom;
 
 }
 
