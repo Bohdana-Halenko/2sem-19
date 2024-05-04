@@ -10,78 +10,148 @@
 </head>
 <body>
   <header class="header">
-    <div class="container">
-      <div class="header__wrap">
-      <a href="index.html">
-        <picture class="header__logo">
-          <source srcset="./img/header/header1@1x.webp 1x, ../img/header/header1@2x.webp 2x image/webp" type="image/webp">
-          <source srcset="./img/header/header1@1x.png 1x, ../img/header/header1@2x.png 2x image/png" type="image/png"> 
-          <img src="./img/header/header1@1x.png" alt="">
-        </picture>
-      </a>
-      <ul class="header__nav-list">
-        <li class="header__nav-item">
-            <a class="header__nav-link" href="#">destinations</a>
-        </li>
-        <li class="header__nav-item">
-            <a class="header__nav-link" href="#">experiences</a>
-        </li>
-        <li class="header__nav-item">
-            <a class="header__nav-link" href="#">about</a>
-        </li>
-        <li class="header__nav-item">
-            <a class="header__nav-link" href="#">gallery</a>
-        </li>
-    </ul>
-<ul class="header__menu-list">
-    <li class="header__menu-item">
-        <a class="header__menu-btn" href="#">
-            <svg class="header__menu-icon">
-                <use href="./img/header/search@1x.webp"></use>
-            </svg>
-        </a>
-    </li>
-    <li class="header__menu-item">
-              <a class="header__menu-btn" href="#">
-            <svg class="header__menu-icon">
-                <use href="./img/header/vector@1x.png"></use>
-            </svg>
-        </a>
-    </li>
-    </ul>
-  </div>
+    <div class=" container">
+        <div class="header__wrap">   
+            <div class="header__nav">
+                <a href="index.html">
+                  <picture class="header__logo">
+                    <source srcset="./img/header/header1@1x.webp 1x, ./img/header/header1@2x.webp 2x" type="image/webp">
+                    <source srcset="./img/header/header1@1x.png 1x, ./img/header/header1@2x.png 2x" type="image/png">
+                    <img src="./img/header/header1@1x.png" alt="">
+                  </picture>
+                </a>
+                <nav>
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#">destinations</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#">experiences</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#">about</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#">gallery</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__item">
+                <ul class="header__menu-list">
+                    <li class="header__menu-item">
+                        <a class="header__menu-btn" href="#">
+                           search
+                        </a>
+                    </li>
+                    <li class="header__menu-item">
+                        <button type="button" class="menu__button js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                            open
+                        </button>                        
+                        
+                        <div class="menu__container js-menu-container" id="mobile-menu">
+                            <button type="button" class="menu__button menu__button-close  js-close-menu">
+                                close
+                            </button>
+                        
+                            <div class="menu__box">
+                                <div class="mobile__menu">
+                                  <a href="./index.html">
+                                  <picture class="header__logo">
+                                    <source srcset="./img/header/header1@1x.webp 1x, ./img/header/header1@2x.webp 2x" type="image/webp">
+                                    <source srcset="./img/header/header1@1x.png 1x, ./img/header/header1@2x.png 2x" type="image/png">
+                                    <img src="./img/header/header1@1x.png" alt="">
+                                  </picture>
+                                </a>
 
-      
-      <h1 class="header__title">explore<br>indonesia</h1>
-      <div class="header__wrap-button">
-        <button class="header__button">Start travelling</button>
-      </div>
-      <div class="header__main">
-       <div class="info__wrap">
-      <ul class="header__info-list">
-      <li class="header__info-item">
-        <p class="header__info-number">01</p>
-        <h3 class="header__info-title">Title here</h3>
-        <p class="header__info-text">Lorem ipsum dolor sit amet et amet ist ame.</p>
-      </li>
-      <li class="header__info-item">
-        <p class="header__info-number">02</p>
-        <h3 class="header__info-title">Title here</h3>
-        <p class="header__info-text">Lorem ipsum dolor sit amet et amet ist ame.</p>
-      </li>
-      <li class="header__info-item">
-        <p class="header__info-number">03</p>
-        <h3 class="header__info-title">Title here</h3>
-        <p class="header__info-text">Lorem ipsum dolor sit amet et amet ist ame.</p>
-      </li>
-      </ul>
+                                    <ul class="menu__list">
+                                        <li class="menu__item">
+                                            <a href="#" class="menu__link">
+                                                destinations
+                                            </a>
+                                        </li>
+                                        <li class="menu__item">
+                                            <a href="#" class="menu__link">
+                                                experiences
+                                            </a>
+                                        </li>
+                                        <li class="menu__item">
+                                            <a href="#" class="menu__link">
+                                                about
+                                            </a>
+                                        </li>
+                                        <li class="menu__item">
+                                            <a href="#" class="menu__link">
+                                                gallery
+                                            </a>
+                                        </li>
+                                    </ul>
 
+                                    <ul class="menu__social-networking">
+                                        <li class="menu__social-card"><a target="_blank" href="https://www.youtube.com/" class="menu__social-link">YouTube</a></li>
+                                        <li class="menu__social-card"><a target="_blank" href="https://www.facebook.com/" class="menu__social-link">Facebook</a></li>
+                                        <li class="menu__social-card"><a target="_blank" href="https://www.instagram.com/" class="menu__social-link">Instagram</a></li>
+                                        <li class="menu__social-card"><a target="_blank" href="https://www.tiktok.com/" class="menu__social-link">TikTok</a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        
+            </div>
+        
+        <div class="header__main"> 
+        <h1 class="header__title">
+            explore <br>indonesia
+        </h1>
 
-      <video poster="#" class="header__video" src="https://cdn.pixabay.com/video/2019/04/26/23070-332665404_large.mp4" controls loop muted style="width: 417px; height: 254px;" ></video>
+        <button class="header__btn" type="button">Start travelling</button>
+    
+    <div class="info__wrap">
+        <ul class="header__info-list">
+            <li class="header__info-item">
+                <span class="header__info-number">
+                    01
+                </span>
+                <h2 class="header__info-title">
+                    Title here
+                </h2>
+                <p class="header__info-text">
+                    Lorem ipsum dolor sit amet et amet ist ame.
+                </p>
+            </li>
+            <li class="header__info-item">
+                <span class="header__info-number">
+                    02
+                </span>
+                <h2 class="header__info-title">
+                    Title here
+                </h2>
+                <p class="header__info-text">
+                    Lorem ipsum dolor sit amet et amet ist ame.
+                </p>
+            </li>
+            <li class="header__info-item">
+                <span class="header__info-number">
+                    03
+                </span>
+                <h2 class="header__info-title">
+                    Title here
+                </h2>
+                <p class="header__info-text">
+                    Lorem ipsum dolor sit amet et amet ist ame.
+                </p>
+            </li>
+        </ul>
+
+        <video poster="#" class="header__video" src="https://cdn.pixabay.com/video/2019/04/26/23070-332665404_large.mp4" controls loop muted style="width: 315px; height: 190px;" ></video>
+
+        </div>
+            </div>
     </div>
-    </div>
-    </div>
-  </header>
+
+</header>
 
 
   <main class="main">
@@ -108,7 +178,7 @@
               Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce commodo magna et libero mollis rhoncus. 
             </p>
 
-            <button class="articles__button">
+            <button class="articles__button" type="button">
               Learn More
             </button>
 
@@ -126,7 +196,7 @@
               Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce commodo magna et libero mollis rhoncus. 
             </p>
 
-            <button class="articles__button">
+            <button class="articles__button" type="button">
               Learn More
             </button>
           </div>
@@ -352,5 +422,6 @@
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="./js/mobile-menu.js"></script>
 </body>
 </html>
