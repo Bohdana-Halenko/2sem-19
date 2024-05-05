@@ -9,80 +9,147 @@
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
-    <!-- hello -->
   <header class="header">
-    <div class="container header__wrap">
-      <a href="index.html">
-        <picture class="header__logo">
-          <source srcset="../img/header/header1@1x.webp 1x, ../img/header/header1@2x.webp 2x image/webp">
-          <source srcset="../img/header/header1@1x.png 1x, ../img/header/header1@2x.png 2x image/png">
-          <img src="./img/header/header1@1x.png" alt="">
-        </picture>
-      </a>
-      <ul class="header__nav-list">
-        <li class="header__nav-item">
-            <a class="header__nav-link" href="#">destinations</a>
-        </li>
-        <li class="header__nav-item">
-            <a class="header__nav-link" href="#">experiences</a>
-        </li>
-        <li class="header__nav-item">
-            <a class="header__nav-link" href="#">about</a>
-        </li>
-        <li class="header__nav-item">
-            <a class="header__nav-link" href="#">gallery</a>
-        </li>
-    </ul>
-</nav>
-</li>
-<li class="header__list-item">
-<ul class="header__menu-list">
-    <li class="header__menu-item">
-        <a class="header__menu-btn" href="#">
-            
-            <svg class="header__menu-icon">
-                <use href="#"></use>
-            </svg>
-        </a>
-    </li>
-    <li class="header__menu-item">
-              <a class="header__menu-btn" href="#">
-            
-            <svg class="header__menu-icon">
-                <use href="#"></use>
-            </svg>
-        </a>
-    </li>
-    </ul>
+    <div class=" container">
+        <div class="header__wrap">   
+            <div class="header__nav">
+                <a href="index.html">
+                  <picture class="header__logo">
+                    <source srcset="./img/header/header1@1x.webp 1x, ./img/header/header1@2x.webp 2x" type="image/webp">
+                    <source srcset="./img/header/header1@1x.png 1x, ./img/header/header1@2x.png 2x" type="image/png">
+                    <img src="./img/header/header1@1x.png" alt="">
+                  </picture>
+                </a>
+                <nav>
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#">destinations</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#">experiences</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#">about</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#">gallery</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__item">
+              <ul class="header__menu-list">
+                  <li class="header__menu-item">
+                      <a class="header__menu-btn" href="#">
+                          <svg>
+                              <use href="#"></use>
+                          </svg>
+                      </a>
+                  </li>
+                  <li class="header__menu-item">
+                      <button type="button" class="menu__button js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                          <svg>
+                              <use href="#"></use>
+                          </svg>
+                      </button>                        
+                      </li>
+                      <div class="menu__container js-menu-container" id="mobile-menu">
+                          <button type="button" class="menu__button menu__button-close  js-close-menu">
+                              close
+                          </button>
+                      
+                          <div class="menu__box">
+                              <div class="mobile__menu">
+                                  
+                                 
+                                  <ul class="menu__list">
+                                      <li class="menu__item">
+                                          <a href="#" class="menu__link">
+                                              destinations
+                                          </a>
+                                      </li>
+                                      <li class="menu__item">
+                                          <a href="#" class="menu__link">
+                                              experiences
+                                          </a>
+                                      </li>
+                                      <li class="menu__item">
+                                          <a href="#" class="menu__link">
+                                              about
+                                          </a>
+                                      </li>
+                                      <li class="menu__item">
+                                          <a href="#" class="menu__link">
+                                              gallery
+                                          </a>
+                                      </li>
+                                  </ul>
 
+                                  <ul class="menu__social-networking">
+                                      <li class="menu__social-card"><a target="_blank" href="https://www.youtube.com/" class="menu__social-link">YouTube</a></li>
+                                      <li class="menu__social-card"><a target="_blank" href="https://www.facebook.com/" class="menu__social-link">Facebook</a></li>
+                                      <li class="menu__social-card"><a target="_blank" href="https://www.instagram.com/" class="menu__social-link">Instagram</a></li>
+                                      <li class="menu__social-card"><a target="_blank" href="https://www.tiktok.com/" class="menu__social-link">TikTok</a></li>
+                                  </ul>
+                          </div>
+                      </div>
+              </ul>
+          </div>
+      
+          </div>
+        
+        <div class="header__main"> 
+        <h1 class="header__title">
+            explore <br>indonesia
+        </h1>
 
-      <h1 class="header__title">explore<br>indonesia</h1>
-      <div class="header__wrap-button">
-        <button class="header__button">Start travelling</button>
-      </div>
+        <button class="header__btn" type="button">Start travelling</button>
+    
+    <div class="info__wrap">
+        <ul class="header__info-list">
+            <li class="header__info-item">
+                <span class="header__info-number">
+                    01
+                </span>
+                <h2 class="header__info-title">
+                    Title here
+                </h2>
+                <p class="header__info-text">
+                    Lorem ipsum dolor sit amet et amet ist ame.
+                </p>
+            </li>
+            <li class="header__info-item">
+                <span class="header__info-number">
+                    02
+                </span>
+                <h2 class="header__info-title">
+                    Title here
+                </h2>
+                <p class="header__info-text">
+                    Lorem ipsum dolor sit amet et amet ist ame.
+                </p>
+            </li>
+            <li class="header__info-item">
+                <span class="header__info-number">
+                    03
+                </span>
+                <h2 class="header__info-title">
+                    Title here
+                </h2>
+                <p class="header__info-text">
+                    Lorem ipsum dolor sit amet et amet ist ame.
+                </p>
+            </li>
+        </ul>
 
+        <video poster="#" class="header__video" src="https://cdn.pixabay.com/video/2019/04/26/23070-332665404_large.mp4" controls loop muted style="width: 315px; height: 190px;" ></video>
 
-      <ul class="header__info-list">
-      <li class="header__info-item">
-        <p class="header__info-number">01</p>
-        <h3 class="header__info-title">Title here</h3>
-        <p class="header__info-text">Lorem ipsum dolor sit amet et amet ist ame.</p>
-      </li>
-      <li class="header__info-item">
-        <p class="header__info-number">02</p>
-        <h3 class="header__info-title">Title here</h3>
-        <p class="header__info-text">Lorem ipsum dolor sit amet et amet ist ame.</p>
-      </li>
-      <li class="header__info-item">
-        <p class="header__info-number">03</p>
-        <h3 class="header__info-title">Title here</h3>
-        <p class="header__info-text">Lorem ipsum dolor sit amet et amet ist ame.</p>
-      </li>
-      </ul>
-
-<video poster="#" class="header__video" src="https://cdn.pixabay.com/video/2019/04/26/23070-332665404_large.mp4" controls loop muted style="width: 417px; height: 254px;" ></video>
+        </div>
+            </div>
     </div>
-  </header>
+    
+
+</header>
 
 
   <main class="main">
@@ -94,8 +161,8 @@
 
       <div class="articles__img">
             <picture>
-              <source srcset="../img/header/header3@1x.webp 1x, ../img/header/header3@2x.webp 2x">
-              <source srcset="../img/header/header3@1x.png 1x, ../img/header/header3@2x.png 2x">
+              <source srcset="./img/header/header3@1x.webp 1x, ./img/header/header3@2x.webp 2x" type="image/webp">
+              <source srcset="./img/header/header3@1x.png 1x, ./img/header/header3@2x.png 2x" type="image/png">
               <img src="./img/header/header3@1x.png" alt="">
             </picture>
       </div>
@@ -109,7 +176,7 @@
               Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce commodo magna et libero mollis rhoncus. 
             </p>
 
-            <button class="articles__button">
+            <button class="articles__button" type="button">
               Learn More
             </button>
 
@@ -127,20 +194,20 @@
               Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce commodo magna et libero mollis rhoncus. 
             </p>
 
-            <button class="articles__button">
+            <button class="articles__button" type="button">
               Learn More
             </button>
           </div>
 
           <div class="articles__img">
             <picture>
-              <source srcset="../img/header/header4@1x.webp 1x, ../img/header/header4@2x.webp 2x">
-              <source srcset="../img/header/header4@1x.png 1x, ../img/header/header4@2x.png 2x">
+              <source srcset="./img/header/header4@1x.webp 1x, ./img/header/header4@2x.webp 2x" type="image/webp">
+              <source srcset="./img/header/header4@1x.png 1x, ./img/header/header4@2x.png 2x" type="image/img">
               <img src="./img/header/header4@1x.png" alt="">
             </picture>
           </div>
         </div>
-    </div>
+        </div>
   </section>
 
 
@@ -148,68 +215,69 @@
 
   <section class="explore">
       <div class="container">
-          <div class="explore__carousel">
-              <h2 class="explore__carousel-title">Explore Our Secrets</h2>
-              
-              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                  <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                  </ol>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <picture class="carousel-img">
-                          <source srcset="../img/explore/carousel1@1x.webp 1x ../img/explore/carousel1@2x.webp 2x">
-                          <source srcset="../img/explore/carousel1@1x.png 1x ../img/explore/carousel1@2x.png 2x">
-                          <img src="./img/explore/carousel1@1x.png" alt="carousel1">
-                      </picture>
-                    </div>
-                    <div class="carousel-item">
-                      <picture class="carousel-img">
-                          <source srcset="../img/explore/carousel2@1x.webp 1x ../img/explore/carousel2@2x.webp 2x">
-                          <source srcset="../img/explore/carousel2@1x.png 1x ../img/explore/carousel2@2x.png 2x">
-                          <img src="./img/explore/carousel2@1x.png" alt="carousel2">
-                      </picture>
-                    </div>
-                    <div class="carousel-item">
-                      <picture class="carousel-img">
-                          <source srcset="../img/explore/carousel3@1x.webp 1x ../img/explore/carousel3@2x.webp 2x">
-                          <source srcset="../img/explore/carousel3@1x.png 1x ../img/explore/carousel3@2x.png 2x">
-                          <img src="./img/explore/carousel3@1x.png" alt="carousel3">
-                      </picture>
-                    </div>
+        <div class="explore__carousel">
+            <h2 class="explore__carousel-title">Explore Our Secrets</h2>
+            
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <picture class="carousel-img">
+                        <source srcset="../img/explore/carousel1@1x.webp 1x, ../img/explore/carousel1@2x.webp 2x" type="img/webp">
+                        <source srcset="../img/explore/carousel1@1x.png 1x, ../img/explore/carousel1@2x.png 2x" type="img/png">
+                        <img src="./img/explore/carousel1@1x.png" alt="carousel1">
+                    </picture>
                   </div>
-                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
+                  <div class="carousel-item">
+                    <picture class="carousel-img">
+                        <source srcset="../img/explore/carousel2@1x.webp 1x, ../img/explore/carousel2@2x.webp 2x" type="img/webp">
+                        <source srcset="../img/explore/carousel2@1x.png 1x, ../img/explore/carousel2@2x.png 2x" type="img/png">
+                        <img src="./img/explore/carousel2@1x.png" alt="carousel2">
+                    </picture>
+                  </div>
+                  <div class="carousel-item">
+                    <picture class="carousel-img">
+                        <source srcset="../img/explore/carousel3@1x.webp 1x, ../img/explore/carousel3@2x.webp 2x" type="img/webp">
+                        <source srcset="../img/explore/carousel3@1x.png 1x, ../img/explore/carousel3@2x.png 2x" type="img/png">
+                        <img src="./img/explore/carousel3@1x.png" alt="carousel3">
+                    </picture>
+                  </div>
                 </div>
-
-          </div>
-          <div class="explore__numbers">
-              <h2 class="explore__numbers-title">By The Numbers</h2>
-              <p class="explore__numbers-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <div class="explore__numbers-items">
-                <div class="explore__numbers-item">
-                    <h4 class="explore__numbers-item-title">100+</h4>
-                    <p class="explore__numbers-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.</p>
-                </div>
-                <div class="explore__numbers-item">
-                    <h4 class="explore__numbers-item-title">43,000+</h4>
-                    <p class="explore__numbers-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo.</p>
-                </div>
-                <div class="explore__numbers-item">
-                    <h4 class="explore__numbers-item-title">30+</h4>
-                    <p class="explore__numbers-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.</p>
-                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
               </div>
-          </div>
+              
+        </div>
       </div>
+        <div class="explore__numbers">
+          <h2 class="explore__numbers-title">By The Numbers</h2>
+          <p class="explore__numbers-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="explore__numbers-items">
+            <div class="explore__numbers-item">
+                <h4 class="explore__numbers-item-title">100+</h4>
+                <p class="explore__numbers-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.</p>
+            </div>
+            <div class="explore__numbers-item">
+                <h4 class="explore__numbers-item-title">43,000+</h4>
+                <p class="explore__numbers-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo.</p>
+            </div>
+            <div class="explore__numbers-item">
+                <h4 class="explore__numbers-item-title">30+</h4>
+                <p class="explore__numbers-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.</p>
+            </div>
+          </div>
+    </div>
+    
   </section>
 
 
@@ -257,42 +325,42 @@
         <div class="gallery__item">
           <picture class="gallery__img">
               <source srcset="../img/gallery/gallery1@1x.png 1x, ../img/gallery/gallery1@2x.png 2x" type="image/png">
-              <source srcset="../img/gallery/gallery1@1x.webp 1x ../img/gallery/gallery1@2x.webp 2x" type="image/webp">
+              <source srcset="../img/gallery/gallery1@1x.webp 1x, ../img/gallery/gallery1@2x.webp 2x" type="image/webp">
               <img src="./img/gallery/gallery1@1x.png" alt="gallery1@1x">
           </picture>
         </div>
         <div class="gallery__item">
           <picture class="gallery__img">
-              <source srcset="../img/gallery/gallery2@1x.png 1x ../img/gallery/gallery2@2x.png 2x" type="image/png">
-              <source srcset="../img/gallery/gallery2@1x.webp 1x ../img/gallery/gallery2@2x.webp 2x" type="image/webp">
+              <source srcset="../img/gallery/gallery2@1x.png 1x, ../img/gallery/gallery2@2x.png 2x" type="image/png">
+              <source srcset="../img/gallery/gallery2@1x.webp 1x, ../img/gallery/gallery2@2x.webp 2x" type="image/webp">
               <img src="./img/gallery/gallery2@1x.png" alt="gallery1@2x">
           </picture>
         </div>
         <div class="gallery__item">
           <picture class="gallery__img">
               <source srcset="../img/gallery/gallery4@1x.png 1x, ../img/gallery/gallery4@2x.png 2x" type="image/png">
-              <source srcset="../img/gallery/gallery4@1x.webp 1x ../img/gallery/gallery4@2x.webp 2x" type="image/webp">
+              <source srcset="../img/gallery/gallery4@1x.webp 1x, ../img/gallery/gallery4@2x.webp 2x" type="image/webp">
               <img src="./img/gallery/gallery4@1x.png" alt="gallery1@4x">
           </picture>
         </div>
         <div class="gallery__item">
           <picture class="gallery__img">
               <source srcset="../img/gallery/gallery5@1x.png 1x, ../img/gallery/gallery5@2x.png 2x" type="image/png">
-              <source srcset="../img/gallery/gallery5@1x.webp 1x ../img/gallery/gallery5@2x.webp 2x" type="image/webp">
+              <source srcset="../img/gallery/gallery5@1x.webp 1x, ../img/gallery/gallery5@2x.webp 2x" type="image/webp">
               <img src="./img/gallery/gallery5@1x.png" alt="gallery5@1x">
           </picture>
         </div>
         <div class="gallery__item">
           <picture class="gallery__img">
               <source srcset="../img/gallery/gallery3@1x.png 1x, ../img/gallery/gallery3@2x.png 2x" type="image/png">
-              <source srcset="../img/gallery/gallery3@1x.webp 1x ../img/gallery/gallery3@2x.webp 2x" type="image/webp">
+              <source srcset="../img/gallery/gallery3@1x.webp 1x, ../img/gallery/gallery3@2x.webp 2x" type="image/webp">
               <img src="./img/gallery/gallery3@1x.png" alt="gallery3@1x">
           </picture>
         </div>
         <div class="gallery__item">
           <picture class="gallery__img">
               <source srcset="../img/gallery/gallery6@1x.png 1x, ../img/gallery/gallery6@2x.png 2x" type="image/png"> 
-              <source srcset="../img/gallery/gallery6@1x.webp 1x ../img/gallery/gallery6@2x.webp 2x" type="image/webp">
+              <source srcset="../img/gallery/gallery6@1x.webp 1x, ../img/gallery/gallery6@2x.webp 2x" type="image/webp">
               <img src="./img/gallery/gallery6@1x.png" alt="gallery6@1x">
           </picture>
         </div>
@@ -300,10 +368,59 @@
     </div>
   </section>
 
+  <footer class="footer">
+    <div class="container">
+        <nav class="navigation">
+            <div>
+                    <a href="index.html">
+                <img src="./images/group8.png" alt="logo">
+                </a>
+                <ul class="ul-nav">
+                    <li class="nav-item">
+                        <p class="nav-text">About</p>
+                    </li>
+                    <li class="nav-item">
+                        <p class="nav-text">Pricing</p>
+                    </li>
+                    <li class="nav-item">
+                        <p class="nav-text">Company</p>
+                    </li>
+                    <li class="nav-item">
+                        <p class="nav-text">Blog</p>
+                    </li>
+                </ul> 
+                <ul>
+                    <li>
+                        <a href="#"><svg class="copi-svg">
+                            <use href="./svgs/symbol-defs.svg#icon-Facebook"></use>
+                        </svg></a>
+                        
+                    </li>
+                    <li>
+                        <a href="#"><svg class="copi-svg">
+                            <use href="./svgs/symbol-defs.svg#icon-Google"></use>
+                        </svg></a>
+                        
+                    </li>
+                    <li>
+                        <a href="#"><svg class="copi-svg">
+                            <use href="./svgs/symbol-defs.svg#icon-Linkedin"></use>
+                        </svg></a>
+                        
+                    </li>
+                </ul>
+                <div class="copi-tx">
+                    <p class="copi">Copyright © 2019</p>
+                </div>
+        </div>
+    </div>
+</footer>
+
 
 </main>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="./js/mobile-menu.js"></script>
 </body>
 </html>

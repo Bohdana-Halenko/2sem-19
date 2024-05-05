@@ -1,14 +1,79 @@
 .articles{
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: rgba($color: #010A20, $alpha: 0.8);
+    background-image: linear-gradient(rgba($color: #010A20, $alpha: 0.8), rgba($color: #010A20, $alpha: 0.8)), url(./../../img/header/header3@1x.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top, bottom;
+    
+}
 
+// .articles__bg{
+//     background-image: linear-gradient(rgba($color: #010A20, $alpha: 0.8), rgba($color: #010A20, $alpha: 0.8)), url(./../../img/header/header3@1x.webp);
+//     background-position: center;
+//     background-size: 100%;
+//     background-repeat: no-repeat;
+// }
+@media screen and (min-width:480px){
+    .articles__button{
+        width: 100%;
+    }
+}
+@media screen and (min-width:768px){
+    .articles__button{
+        width: 180px;
+    }
+    .articles__list{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .articles__img{
+        margin-top: 35px;
+    }
+    .articles__title{
+        margin-bottom: 35px;
+        margin-top: 34px;
+    }
+    .articles__text{
+        margin-bottom: 20px;
+    }
+  
+
+
+}
+@media screen and (min-width:1200px){
+
+
+    .articles__wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+    }
+
+    .articles__bg,
+    .articles__bg-two{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .articles__img{
+        max-width: 630px;
+        justify-content: left;
+        
+    }
+    .articles_info{
+        padding-right: 124px;
+        padding-left: 130px;
+    }
+    
+    
+    
 }
 
 
-
 .articles__title{
-color: #ffff;
+color: #ffffff;
 font-size: 40px;
 font-weight: 700;
 line-height: 46px;
@@ -16,7 +81,7 @@ text-align: left;
 
 }
 .articles__text{
-color: #ffff;
+color: #ffffff;
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
@@ -27,22 +92,26 @@ text-align: left;
 .articles__button{ 
 padding: 16px 24px ;
 border-radius: 32px;
-opacity: 0px;
-width: 100%;
 font-size: 18px;
 font-weight: 700;
 line-height: 27px;
 text-align: center;
 background-color: #DD2242;
-color: #ffff;
+color: #ffffff;
+&:hover,
+&:focus{
+    background-color: darkred;
+}
+border: none;
 }
 .articles__img{
-    padding-top: 40px;
+    margin-top: 40px;
 }
 .articles__title{
-    padding-bottom: 40px;
-    padding-top: 34px;
+    margin-bottom: 40px;
+    margin-top: 34px;
 }
 .articles__text{
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
+
