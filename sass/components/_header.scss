@@ -38,7 +38,7 @@
     font-size: 58px;
     line-height: 108%;
     text-transform: uppercase;
-    color: $title-light;
+    color: $white;
     font-family: "Roboto", sans-serif;
     
 }
@@ -48,7 +48,7 @@
     border-radius: 108px;
     border: none;
     background-color: $contrast-color;
-    color: $title-light;
+    color: $white;
     margin-top: 8px;
 }
 
@@ -76,7 +76,7 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 156%;
-    color: $title-light;
+    color: $white;
 }
 .header__info-text{
 font-weight: 400;
@@ -117,7 +117,7 @@ color: $header-list-text;
 .menu__button-close{
     margin-bottom: 30px;
     font-size: 30px;
-    color: $title-light;
+    color: $white;
 
 }
 
@@ -130,7 +130,7 @@ color: $header-list-text;
 }
 
 .menu__link{
-    color: $title-light;
+    color: $white;
     font-size: 24px;
 }
 
@@ -147,7 +147,7 @@ color: $header-list-text;
 }
 
 .menu__social-link{
-    color: $title-light;
+    color: $white;
 }
 
 .menu__social-link:hover{color: $contrast-color;}
@@ -229,7 +229,7 @@ color: $header-list-text;
         font-weight: 700;
         font-size: 18px;
         text-transform: uppercase;
-        color: $title-light;
+        color: $white;
     }    
 
     .header__nav-list{
