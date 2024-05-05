@@ -1,8 +1,8 @@
 .articles{
     padding-top: 40px;
     padding-bottom: 40px;
-    background-image: linear-gradient(rgba($color: #010A20, $alpha: 0.8), rgba($color: #010A20, $alpha: 0.8)), url(./../../img/header/header3@1x.webp), url(./../../img/header/header4@1x.webp);
-    // background-size: 1488%, 33%;
+    background-image: linear-gradient(rgba($color: #010A20, $alpha: 0.8), rgba($color: #010A20, $alpha: 0.8)), url(./../../img/header/header3@1x.webp);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: top, bottom;
     
@@ -51,6 +51,12 @@
         justify-content: right;
     }
 
+    .articles__bg,
+    .articles__bg-two{
+        display: flex;
+        justify-content: space-between;
+    }
+
     .articles__img{
         max-width: 630px;
         justify-content: left;
@@ -66,10 +72,8 @@
 }
 
 
-
 .articles__title{
 color: #ffffff;
-font-family: 'DM Sans';
 font-size: 40px;
 font-weight: 700;
 line-height: 46px;
@@ -78,7 +82,6 @@ text-align: left;
 }
 .articles__text{
 color: #ffffff;
-font-family: 'DM Sans';
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
@@ -89,7 +92,6 @@ text-align: left;
 .articles__button{ 
 padding: 16px 24px ;
 border-radius: 32px;
-font-family: 'DM Sans';
 font-size: 18px;
 font-weight: 700;
 line-height: 27px;
