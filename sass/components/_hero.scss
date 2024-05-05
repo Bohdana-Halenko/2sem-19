@@ -1,9 +1,41 @@
 .hero{
-    width: 1920px;
-    height: 821px;
+    background-image: url(./../img/video/Whangaehu.png), url(./../img/video/Whangaehu\ \(1\).png);
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 250px;
+    padding-bottom: 250px;
 }
 .hero__wrap{
     font-weight: 700;
-    font-size: 42px;
-    align-items: center;
+    font-size: 40px;
+    line-height: 115%;
+    text-align: center;
+    color: #000;
+    margin-bottom: 32px;
+}
+.hero__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    display: flex;
+    text-align: center;
+    fill: $photo-lorem;
+    
+}
+.hero__link{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #DD2242;
+    border-radius: 122px;
+    padding: 16px 24px;
+    width: 314px;
+    opacity: 0px;
+    height: 73px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 40px auto 0 auto;
 }

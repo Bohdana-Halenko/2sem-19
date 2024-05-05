@@ -1,0 +1,39 @@
+.video{
+    width: 800;
+    background-image: url(./../img/video/back_2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.video__wrap{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 115%;
+    text-align: center;
+    margin-bottom: 19px;
+}
+.video__item{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 150%;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.video__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.video__link{
+    width: 314px;
+    height: 192px;
+    display: block;
+    margin: 0 auto;
+}
+.video__video{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
