@@ -249,41 +249,6 @@ img {
   color: #FFFFFF;
 }
 
-.menu__button-open-icon {
-  padding: 0;
-  background-color: transparent;
-  cursor: pointer;
-  border: none;
-  margin-left: auto;
-}
-
-.menu__button-close-icon {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  padding: 0;
-  background-color: transparent;
-  cursor: pointer;
-  border: none;
-  margin-left: auto;
-}
-
-.menu__button-open-icon,
-.menu__button-close-icon {
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-          transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.menu__button-open-icon:active,
-.menu__button-close-icon:active {
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-          transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
 .menu__button-close:hover {
   color: #010A20;
 }
