@@ -128,3 +128,9 @@ q:after {
 img{
     max-width: 100%;
 }
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+}
