@@ -1,19 +1,27 @@
 .articles{
     padding-top: 40px;
     padding-bottom: 40px;
-    background-image: linear-gradient(rgba($color: #010A20, $alpha: 0.8), rgba($color: #010A20, $alpha: 0.8)), url(./../../img/header/header3@1x.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top, bottom;
+    background-image: linear-gradient(rgba($color: #010A20, $alpha: 0.8), rgba($color: #010A20, $alpha: 0.8));
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // background-position: top, bottom;
     
 }
 
-// .articles__bg{
-//     background-image: linear-gradient(rgba($color: #010A20, $alpha: 0.8), rgba($color: #010A20, $alpha: 0.8)), url(./../../img/header/header3@1x.webp);
-//     background-position: center;
-//     background-size: 100%;
-//     background-repeat: no-repeat;
-// }
+.articles__bg{
+    background-image: linear-gradient(rgba($color: #010A20, $alpha: 0.8), rgba($color: #010A20, $alpha: 0.8)), url(./../../img/header/header3@1x.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.articles__bg-two{
+    background-image: linear-gradient(rgba($color: #010A20, $alpha: 0.8), rgba($color: #010A20, $alpha: 0.8)), url(./../../img/header/header4@1x.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 @media screen and (min-width:480px){
     .articles__button{
         width: 100%;
@@ -28,8 +36,12 @@
         justify-content: space-between;
         gap: 10px;
     }
+
+    
+
     .articles__img{
         margin-top: 35px;
+        justify-content: top;
     }
     .articles__title{
         margin-bottom: 35px;
@@ -49,6 +61,7 @@
         display: flex;
         flex-direction: column;
         justify-content: right;
+        padding: 0px 124px 30px 130px;
     }
 
     .articles__bg,
@@ -58,8 +71,10 @@
     }
 
     .articles__img{
-        max-width: 630px;
+        width: 100%;
         justify-content: left;
+        padding-right: 50px;
+        padding-left: 50px;
         
     }
     .articles_info{
