@@ -128,6 +128,11 @@ img {
   max-width: 100%;
 }
 
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
 .header {
   background-image: url(./../../img/header/bg.png);
   background-repeat: no-repeat;
@@ -481,7 +486,7 @@ img {
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .explore {
-    background-image: url(./../img/explore/bg@2x.png);
+    background-image: url(../img/explore/bg@2x.png);
   }
 }
 .explore__carousel {
@@ -511,7 +516,6 @@ img {
 .explore__numbers {
   background-color: #020c21;
   opacity: 0.9;
-  background-size: cover;
   padding-top: 47px;
   padding-bottom: 69px;
 }
@@ -556,9 +560,13 @@ img {
   margin-top: 70px;
 }
 
-@media screen, (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .explore__carousel {
     padding-top: 100px;
+  }
+  .explore__numbers {
+    padding-top: 201px;
+    padding-bottom: 225px;
   }
   .explore__numbers-items {
     display: -webkit-box;
@@ -566,10 +574,6 @@ img {
     display: flex;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;

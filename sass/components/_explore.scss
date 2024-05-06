@@ -10,7 +10,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .explore {
-    background-image: url(./../img/explore/bg@2x.png);
+    background-image: url(../img/explore/bg@2x.png);
   }
 }
 
@@ -41,7 +41,6 @@
 .explore__numbers {
     background-color: $explore-blue;
     opacity: 0.9;
-    background-size: cover;
     padding-top: 47px;
     padding-bottom: 69px;
 }
@@ -83,16 +82,19 @@
     margin-top: 70px;
 }
 
-@media screen, (min-width:1200px) {
+@media screen and (min-width: 1200px) {
     .explore__carousel {
         padding-top: 100px;
-        
+    }
+
+    .explore__numbers {
+        padding-top: 201px;
+        padding-bottom: 225px;
     }
 
     .explore__numbers-items {
         display: flex;
         flex-wrap: nowrap;
-        flex-direction: row;
         justify-content: space-evenly;
     }
 }
